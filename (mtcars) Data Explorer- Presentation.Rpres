@@ -1,0 +1,58 @@
+(mtcars) Data Explorer Shiny Application- Presentation
+========================================================
+author: Hesham Elhalawani
+date: July 1st, 2017
+autosize: true
+
+Introduction
+========================================================
+
+This presentation is part of the Developing Data Products Coursera.org course project submission.
+
+It is an R Presentation generated with RStudio.
+
+The Shiny application pitched by this presentation is at https://hmelhalawani.shinyapps.io/mtcars_data_explorer/
+
+The Shiny app source code is available at https://github.com/HeshamElhalawani/Developing-Data-Products-Course-Project.
+
+
+The (mtcars- Motor Trend Car Road Tests) database in a nutshell
+========================================================
+
+- The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models).
+- It's composed of a data frame with 32 observations on 11 variables.
+
+- Source:
+> Henderson and Velleman (1981), Building multiple regression models interactively. Biometrics, 37, 391–411.
+
+
+Summary
+========================================================
+
+```{r}
+head(mtcars)
+```
+
+
+How it works
+=======================================================
+
+[1]   select an automobile attribute form the drop-down variables list
+
+
+[2]	 check/uncheck the checkbox to include/exclude outliers
+
+[3]	 Select the 'Boxplot' tab to get a boxplot representation of the data
+
+[4]	 Select the 'Linear Regression Model' tab to view the corresponding plot
+
+
+Ready to give it a try?
+=======================================================
+
+
+Use the Shiny app at https://hmelhalawani.shinyapps.io/mtcars_data_explorer/
+
+Get the app source code at https://github.com/HeshamElhalawani/Developing-Data-Products-Course-Project.
+                     
+
